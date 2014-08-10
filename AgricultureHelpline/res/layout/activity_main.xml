@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agriculturallife.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#C9D7F2" >
+    
+    
+    
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/b"
+        android:layout_alignLeft="@+id/b"
+        android:layout_marginBottom="26dp"
+        android:text="Paddy" />
+    
+     <Button
+        android:id="@+id/b"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Fisheries" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/b"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="157dp"
+        android:text="Farm" />
+
+</RelativeLayout>
+
